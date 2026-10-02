@@ -1,32 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id" data-theme="light">
 <head>
-    <title>All About Jee</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Jee | Portofolio Jayani Putu Ahimsani Devi</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav>
-        <div class="logo">
-            <h4>All About Jee</h4>
+
+  <!-- Background Decorative Whimsical Elements -->
+  <div class="whimsical-bg">
+    <div class="sprout s1">🌱</div>
+    <div class="sprout s2">🌿</div>
+    <div class="mushroom m1">🍄</div>
+    <div class="mushroom m2">🍄</div>
+    <div class="star st1">✨</div>
+    <div class="star st2">⭐</div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon">🌿</span> All About Jee
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Switch Toggle -->
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+              <span class="sun">☀️</span>
+              <span class="moon">🌙</span>
+            </div>
+          </label>
         </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    <!-- NAVBAR END -->
 
-    <!-- CONTENT -->
-    <div class="content">
-        <h1>All About Jee</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-    <!-- CONTENT END -->
+        <!-- Hamburger Menu -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 All About Jee. All rights reserved.</p>
-    </footer>
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-badge">✨ Welcome to Jee's Magical Corner ✨</div>
+        <h1 class="hero-title">Om Swastyastu! Halo, aku <span class="highlight">Jayani Putu Ahimsani Devi</span> 🌱</h1>
+        <p class="hero-subtitle">Pemimpin Desk Mekatronika • Madyapadma Journalistic Parks</p>
+
+        <!-- Fun Fact Box -->
+        <div class="fun-fact-card">
+          <div class="card-header">
+            <span class="mushroom-icon">🍄</span>
+            <h3>Fun Fact!</h3>
+          </div>
+          <p>Lahir tanggal 21 Februari 2010 dan saat ini tinggal di Denpasar, Bali. Sekarang aku duduk di kelas XI SMAN 3 Denpasar dan memimpin desk Mekatronika di Madyapadma!</p>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            Wanna talk with Jee... <i class="fa-solid fa-paper-plane"></i>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Jelajahi Dunia Jee <i class="fa-solid fa-compass"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-title">
+        <span class="sub-heading">🌱 Get To Know Me</span>
+        <h2>Tentang Diri & Hobi</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card bio-card">
+          <div class="card-icon">🏫</div>
+          <h3>Pendidikan & Organisasi</h3>
+          <p>Sebagai siswi kelas XI di <strong>SMAN 3 Denpasar</strong>, aku aktif mengembangkan keterampilan kepemimpinan dan teknis sebagai <strong>Pemimpin Desk Mekatronika</strong> di ekstrakurikuler jurnalistik kebanggaan sekolah, <strong>Madyapadma Journalistic Parks</strong>.</p>
+        </div>
+
+        <div class="about-card hobbies-card">
+          <div class="card-icon">🎨</div>
+          <h3>Kegemaran & Hobi</h3>
+          <p>Ketika sedang tidak mengutak-atik proyek mekatronika atau jurnalistik, aku suka menghabiskan waktu dengan berbagai hobi kreatif dan petualangan:</p>
+          <div class="hobby-tags">
+            <span class="tag"><i class="fa-solid fa-palette"></i> Menggambar</span>
+            <span class="tag"><i class="fa-solid fa-film"></i> Menonton Film</span>
+            <span class="tag"><i class="fa-solid fa-music"></i> Mendengarkan Musik</span>
+            <span class="tag"><i class="fa-solid fa-guitar"></i> Bermain Musik</span>
+            <span class="tag"><i class="fa-solid fa-route"></i> Jalan-jalan</span>
+            <span class="tag"><i class="fa-solid fa-water"></i> Snorkelling</span>
+            <span class="tag"><i class="fa-solid fa-socks"></i> Crochetting</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects-section">
+      <div class="section-title">
+        <span class="sub-heading">🍄 My Creations</span>
+        <h2>Proyek & Karya</h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-banner p1">
+            <span class="project-emoji">🤖</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Mekatronika & Robotik</span>
+            <h3>Inovasi Desk Mekatronika</h3>
+            <p>Pengembangan modul dan proyek otomasi skala siswa di bawah naungan Madyapadma Journalistic Parks.</p>
+            <div class="project-tags">
+              <span>Arduino</span>
+              <span>Sensors</span>
+              <span>Madyapadma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-banner p2">
+            <span class="project-emoji">🧶</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Handcraft & Art</span>
+            <h3>Jee's Handmade Crochet</h3>
+            <p>Koleksi rajutan kreatif bermotif juminocore dan konsep whimsical ala alam bebas.</p>
+            <div class="project-tags">
+              <span>Crochet</span>
+              <span>Craft</span>
+              <span>Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-banner p3">
+            <span class="project-emoji">🎨</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Digital & Traditional Illustration</span>
+            <h3>Galeri Sketsa & Gambar</h3>
+            <p>Eksplorasi visual dan ilustrasi karakter favorit dengan nuansa estetika alam & dongeng.</p>
+            <div class="project-tags">
+              <span>Illustration</span>
+              <span>Sketching</span>
+              <span>Art</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-header">
+          <span class="mushroom-icon">📮</span>
+          <h2>Wanna talk with Jee?</h2>
+          <p>Punya pertanyaan, ide kolaborasi, atau sekadar ingin menyapa? Kamu bisa mengirimkan pesan langsung ke surelku!</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="email-box">
+            <i class="fa-solid fa-envelope"></i>
+            <span>madyahimsani49@gmail.com</span>
+          </div>
+          <a href="mailto:madyahimsani49@gmail.com" class="btn btn-red">
+            Kirim Email Sekarang <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>🌿 &copy; 2026 <strong>Jayani Putu Ahimsani Devi</strong>. All rights reserved. Made with ✨ whimsical juminocore magic.</p>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
     <!-- FOOTER END -->
 
 </body>
